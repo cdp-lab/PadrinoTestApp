@@ -4,3 +4,4 @@ gem 'thin'
 gem 'rake'
 gem 'padrino', '0.15.1'
 gem "bugsify"
+gem "debug"
