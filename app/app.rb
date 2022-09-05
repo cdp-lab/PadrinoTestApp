@@ -6,10 +6,10 @@ module PadrinoTestApp
     register Padrino::Helpers
     enable :sessions
 
-    use Bugsify::PadrinoMiddleware
+    use Bugsify::Middleware::Padrino
 
     get '/' do
-      "Hello World".to_err1
+      "Hello World".to_dusko_dolic
     end
   end
 end

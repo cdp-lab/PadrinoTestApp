@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bugsify (0.2.0)
+    bugsify (0.2.5)
     concurrent-ruby (1.1.10)
     daemons (1.4.1)
     eventmachine (1.2.7)
@@ -65,6 +65,7 @@ GEM
     tilt (2.0.11)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
