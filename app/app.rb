@@ -10,6 +10,5 @@ module PadrinoTestApp
 
     get '/' do
       "Hello World".to_dusko_dolic
-    end
   end
 end
