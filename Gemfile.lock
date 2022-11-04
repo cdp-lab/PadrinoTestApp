@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bugsify (0.2.5)
+    codepop (1.0.0)
     concurrent-ruby (1.1.10)
     daemons (1.4.1)
     debug (1.6.2)
@@ -76,7 +76,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bugsify
+  codepop
   debug
   padrino (= 0.15.1)
   rake

@@ -1,4 +1,4 @@
-require "bugsify"
+require "codepop"
 
 module PadrinoTestApp
   class App < Padrino::Application
@@ -6,9 +6,9 @@ module PadrinoTestApp
     register Padrino::Helpers
     enable :sessions
 
-    use Bugsify::Middleware::Padrino
+    use Codepop::Middleware::Padrino
 
     get '/' do
-      "Hello World".to_dusko_dolic
+      "Hello World".to_codepop
   end
 end
